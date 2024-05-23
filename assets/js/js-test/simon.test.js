@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 
-const { game, } = require("../simon-script");
+const { game, newGame } = require("../simon-script");
 
 beforeAll(() => {
     let fs = require("fs");
@@ -31,5 +31,16 @@ describe("game object contains correct keys", () => {
 
     test("choices contain correct ids", () => {
         expect(game.choices).toEqual(["topleft", "topright", "bottomleft", "bottomright"])
-    })
+    });
 });
+
+describe("newGame works correctly", () => {
+    beforeAll(() => {
+        game.score = 23;
+        newGame();
+    });
+
+    test("should set game score to zero", () => {
+        expect(game.score).toEqual(0);
+    });
+})
