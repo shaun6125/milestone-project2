@@ -3,7 +3,7 @@
  */
 
 
-const { game, newGame, showScore } = require("../simon-script");
+const { game, newGame, showScore, addTurn } = require("../simon-script");
 
 beforeAll(() => {
     let fs = require("fs");
@@ -48,8 +48,8 @@ describe("newGame works correctly", () => {
         expect(game.score).toEqual(0);
     });
 
-    test("should clear the computer sequence array", () => {
-        expect(game.currentGame.length).toBe(0);
+    test("should be one move in the computers game array", () => {
+        expect(game.currentGame.length).toBe(1);
     });
 
     test("should clear the player moves array", () => {
@@ -59,4 +59,5 @@ describe("newGame works correctly", () => {
     test("should display 0 for the element with id of score", () => {
         expect(document.getElementById("score").innerText).toEqual(0);
     });
+
 })
