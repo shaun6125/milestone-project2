@@ -2,7 +2,8 @@
  * @jest-environment jsdom
  */
 
-const { game, newGame } = require("../simon-script");
+
+const { game, newGame, showScore } = require("../simon-script");
 
 beforeAll(() => {
     let fs = require("fs");
@@ -37,10 +38,25 @@ describe("game object contains correct keys", () => {
 describe("newGame works correctly", () => {
     beforeAll(() => {
         game.score = 23;
+        game.currentGame = ["topleft", "topright"];
+        game.playerMoves = ["topleft", "topright"];
+        document.getElementById("score").innerText = "23";
         newGame();
     });
 
     test("should set game score to zero", () => {
         expect(game.score).toEqual(0);
+    });
+
+    test("should clear the computer sequence array", () => {
+        expect(game.currentGame.length).toBe(0);
+    });
+
+    test("should clear the player moves array", () => {
+        expect(game.playerMoves.length).toBe(0);
+    });
+
+    test("should display 0 for the element with id of score", () => {
+        expect(document.getElementById("score").innerText).toEqual(0);
     });
 })
