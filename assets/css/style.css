@@ -400,4 +400,8 @@
     margin-left: 83px;
     margin-top: 197px;
   }
+  
+  .flash {
+    opacity: 0.5;
+  }
 
