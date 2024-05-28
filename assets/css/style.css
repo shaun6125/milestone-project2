@@ -1,0 +1,104 @@
+.column {
+    float: left;    
+}
+
+.left {
+    width: 65%;
+}
+
+.right {
+    width: 35%;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: reg(36,32,30);
+    padding-right: 75px;
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-bottom: 6%;
+    padding-right: 75px;
+}
+
+@media screen and (max-width: 680px) {
+    .info h3 {
+        width: 85%;
+    }
+}
+
+.info span{
+    color: #9e0578b6;
+}
+
+.image{
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    right: 80px;
+    bottom: 400px;
+}
+
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 20%;
+    transform: translate(-10%);
+    bottom: 0;
+    padding-left:3%;
+  
+}
+
+@media screen and (max-width: 670px) {
+    .image {
+        display: none;
+    }
+}
+
+
+
+.building{
+    background-color:rgb(240, 245, 245);
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.benefits h2{
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.benefits span{
+    color: #9e0578b6;
+}
+
+.benefits p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-left: 10%;
+    margin-right:10%;
+}
