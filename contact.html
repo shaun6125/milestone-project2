@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
+<head>
     <meta charset="UTF-8">
     <title>Brain Builders</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href= "assets/css/style.css">
     <link rel="stylesheet" href= "assets/css/global_styles.css">
     <script src="index.js" defer></script>
-    </head>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+            publicKey: "Olw57NPYYhSRt31oy",
+        });
+            emailjs.send("service_wpl08s6","Shaun",{name: "Jarvis", notes: "The project that i want is..."});
+        })();
+    </script>
+</head>
 
     <body>
         <nav class="navbar">
@@ -27,5 +42,36 @@
         </ul>
         </div>
         </nav>
+
+        <section>
+            <div class="row">
+                <div class= "column left info">
+                    <h3><span>Get involved with...</span></h3>
+                    <h1><span>B</span>RAIN <span>B</span>UILDERS</h1>
+                    <div class = "column right image">
+                    <img src="assets/images/brain-building.png" class="brain">
+                </div>
+                <div class="contact-info">
+                    <h3><span>Great Brain Building ideas</span>... Lets work on them together. 
+                    We want to ceate more <span>entertaining</span> and <span>stimulating</span> activity games that enhance wellbeing 
+                    and boost <span>cognitive abilities</span> and <span>social development</span>. Contact us below with <span>your project idea</span>.</h3>
+                </div>
+            </div>
+
+        </section>
+                <div class="center-form">
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
+                    <div class="form-row text-center">
+                        <div class="col">                        
+                            <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </body>
 </html>

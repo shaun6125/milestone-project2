@@ -1,3 +1,7 @@
+html {
+    font-family: "Raleway";
+}
+
 .column {
     float: left;    
 }
@@ -52,8 +56,8 @@
 }
 
 .image{
-    width: 30%;
-    height: 30%;
+    width: 25%;
+    height: 25%;
     position: absolute;
     right: 80px;
     bottom: 400px;
@@ -102,3 +106,4 @@
     margin-left: 10%;
     margin-right:10%;
 }
+
