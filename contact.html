@@ -9,19 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href= "assets/css/style.css">
     <link rel="stylesheet" href= "assets/css/global_styles.css">
-    <script src="index.js" defer></script>
-
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-        (function(){
-            emailjs.init({
-            publicKey: "Olw57NPYYhSRt31oy",
-        });
-            emailjs.send("service_wpl08s6","Shaun",{name: "Jarvis", notes: "The project that i want is..."});
-        })();
-    </script>
+    <script src="assets/js/index.js" defer></script>
+    <script src="assets/js/contact.js" defer></script>
+    
 </head>
 
     <body>
@@ -59,18 +49,26 @@
             </div>
 
         </section>
-                <div class="center-form">
-                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-                    <input type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
+        <section>
+                <form id="form" class="center-form">
+                    <input type="text" name="from_name" class="form-control" id="from_name" placeholder="Name" required/>
+                    <input type="email" name="email_address" class="form-control" id="email_address" placeholder="Email" required/>
+                    <textarea rows="5" name="message" class="form-control" id="message" placeholder="Project Description" required></textarea>
                     <div class="form-row text-center">
                         <div class="col">                        
-                            <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
-                            </div>
+                            <button type="submit" id="button" class="btn btn-secondary center-block" value="Send Email">Send Project Request</button>
+                            
                         </div>
                     </div>
-                </div>
-            </div>
+                </form>
+
+                  <script type="text/javascript"
+                    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+                  
+                  <script type="text/javascript">
+                    emailjs.init('Olw57NPYYhSRt31oy')
+                  </script>
+            
         </section>
 
     </body>
