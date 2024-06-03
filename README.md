@@ -2,7 +2,7 @@
  
 #### Interactive Front-End Development Project
 
-In this project, we were asked to create an interactive gaming website, using javascript to create interactive functions and jest to test the code whilst writing it in a test driven development. I initially set off to creat multiple games with the addition of bop-it and snap, however due to time constraints and only a foundation knowledge of javascript at this time I was only able to manage two games. 
+In this project, we were asked to create an interactive gaming website, using javascript to create interactive functions and jest to test the code whilst writing it in a test driven development. I initially set off to create multiple games with the addition of bop-it and snap, however due to time constraints and only a foundation knowledge of javascript at this time I was only able to manage two games. 
 
 ## UX DESIGN
 
