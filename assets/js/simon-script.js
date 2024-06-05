@@ -7,7 +7,7 @@ let game = {
     turnInProgress: false,
     choices: ["topleft", "topright", "bottomleft", "bottomright"]
     
-}
+};
 
 function newGame() {
     game.score = 0;
@@ -59,7 +59,7 @@ function lightsOn(circ) {
 
 function showScore() {
     document.getElementById("score").innerText = game.score;
-};
+}
 
 function playerTurn() {
     let i = game.playerMoves.length - 1;

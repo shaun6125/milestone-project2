@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 let gameType = this.getAttribute("data-type");
                 runGame(gameType);
             }
-        })
+        });
     }
 
     document.getElementById("answer-box").addEventListener("keydown", function(event) {
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     runGame("addition");
-})    
+});    
 
 /**
  * The main game "loop", called when the script is first loaded

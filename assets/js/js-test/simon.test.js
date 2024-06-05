@@ -33,7 +33,7 @@ describe("game object contains correct keys", () => {
     });
 
     test("choices contain correct ids", () => {
-        expect(game.choices).toEqual(["topleft", "topright", "bottomleft", "bottomright"])
+        expect(game.choices).toEqual(["topleft", "topright", "bottomleft", "bottomright"]);
     });
 
     test("turnNumber key exists", () => {
@@ -86,7 +86,7 @@ describe("newGame works correctly", () => {
         }
     });
 
-})
+});
 
 describe("gameplay works correctly", () => {
     beforeEach(() => {
