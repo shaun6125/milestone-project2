@@ -80,8 +80,8 @@ Here are links to each techonology I have used:
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 - [Bootstrap 4.2.1](http://getbootstrap.com/docs/4.2/)
 - [Font Awesome 5](https://fontawesome.com)
-- [JavaScript] (https://simple.wikipedia.org/wiki/JavaScript)
-- [emailJS] (https://www.emailjs.com/)
+- [JavaScript](https://simple.wikipedia.org/wiki/JavaScript)
+- [emailJS](https://www.emailjs.com/)
 
 
 ## TESTING
