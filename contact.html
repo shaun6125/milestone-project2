@@ -45,27 +45,23 @@
           </div>
         </div>
         <div class = "column right image">
-          <img src="assets/images/brain-building.png" class="brain" atl="brain-building">
-        </div>         
-
-    </section>
-    <section>
-      <form id="form" class="center-form">
-        <input type="text" name="from_name" class="form-control" id="from_name" placeholder="Name" required/>
-        <input type="email" name="email_address" class="form-control" id="email_address" placeholder="Email" required/>
-        <textarea rows="5" name="message" class="form-control" id="message" placeholder="Project Description" required></textarea>
-        <div class="form-row text-center">
-          <div class="col">                        
-            <button type="submit" id="button" class="btn btn-secondary center-block" value="Send Email">Send Project Request</button>
-                            
-          </div>
+          <img src="assets/images/brain-building.png" class="brain" alt="brain-building">
         </div>
-      </form>
-
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-      <script type="text/javascript">emailjs.init('Olw57NPYYhSRt31oy')</script>
-            
+      </div>
     </section>
 
+    <form id="form" class="center-form">
+      <input type="text" name="from_name" class="form-control" id="from_name" placeholder="Name" required>
+      <input type="email" name="email_address" class="form-control" id="email_address" placeholder="Email" required>
+      <textarea rows="5" name="message" class="form-control" id="message" placeholder="Project Description" required></textarea>
+      <div class="form-row text-center">
+        <div class="col">                        
+          <button type="submit" id="button" class="btn btn-secondary center-block" value="Send Email">Send Project Request</button>                            
+        </div>
+      </div>
+    </form>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">emailjs.init('Olw57NPYYhSRt31oy')</script>
   </body>
 </html>
