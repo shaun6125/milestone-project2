@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <title>Brain Builders</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
     <link rel="stylesheet" href= "assets/css/style.css">
     <link rel="stylesheet" href= "assets/css/global_styles.css">
     <script src="assets/js/index.js" defer></script>
@@ -14,62 +14,58 @@
     
 </head>
 
-    <body>
-        <nav class="navbar">
-            <div class="brand-title">Brain Builders</div>
-            <a href="#" class="toggle-button">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </a>
-            <div class="navbar-links">
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="simon.html">Simon</a></li>
-                <li><a href="love-math.html">Love Math</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </div>
-          </nav>
+  <body>
+    <nav class="navbar">
+      <div class="brand-title">Brain Builders</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="simon.html">Simon</a></li>
+          <li><a href="love-math.html">Love Math</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
-        <section>
-            <div class="row">
-                <div class= "column left info">
-                    <h3><span>Get involved with...</span></h3>
-                    <h1><span>B</span>RAIN <span>B</span>UILDERS</h1>
-                    <div class = "column right image">
-                    <img src="assets/images/brain-building.png" class="brain">
-                </div>
-                <div class="contact-info">
-                    <h3><span>Great Brain Building ideas</span>... Lets work on them together. 
-                    We want to ceate more <span>entertaining</span> and <span>stimulating</span> activity games that enhance wellbeing 
-                    and boost <span>cognitive abilities</span> and <span>social development</span>. Contact us below with <span>your project idea</span>.</h3>
-                </div>
-            </div>
+    <section>
+      <div class="row">
+        <div class= "column left info">
+          <h3><span>Get involved with...</span></h3>
+          <h1><span>B</span>RAIN <span>B</span>UILDERS</h1>
+          <div class="contact-info">
+            <h3><span>Great Brain Building ideas</span>... Lets work on them together. 
+            We want to ceate more <span>entertaining</span> and <span>stimulating</span> activity games that enhance wellbeing 
+            and boost <span>cognitive abilities</span> and <span>social development</span>. Contact us below with <span>your project idea</span>.</h3>
+          </div>
+        </div>
+        <div class = "column right image">
+          <img src="assets/images/brain-building.png" class="brain" atl="brain-building">
+        </div>         
 
-        </section>
-        <section>
-                <form id="form" class="center-form">
-                    <input type="text" name="from_name" class="form-control" id="from_name" placeholder="Name" required/>
-                    <input type="email" name="email_address" class="form-control" id="email_address" placeholder="Email" required/>
-                    <textarea rows="5" name="message" class="form-control" id="message" placeholder="Project Description" required></textarea>
-                    <div class="form-row text-center">
-                        <div class="col">                        
-                            <button type="submit" id="button" class="btn btn-secondary center-block" value="Send Email">Send Project Request</button>
+    </section>
+    <section>
+      <form id="form" class="center-form">
+        <input type="text" name="from_name" class="form-control" id="from_name" placeholder="Name" required/>
+        <input type="email" name="email_address" class="form-control" id="email_address" placeholder="Email" required/>
+        <textarea rows="5" name="message" class="form-control" id="message" placeholder="Project Description" required></textarea>
+        <div class="form-row text-center">
+          <div class="col">                        
+            <button type="submit" id="button" class="btn btn-secondary center-block" value="Send Email">Send Project Request</button>
                             
-                        </div>
-                    </div>
-                </form>
+          </div>
+        </div>
+      </form>
 
-                  <script type="text/javascript"
-                    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-                  
-                  <script type="text/javascript">
-                    emailjs.init('Olw57NPYYhSRt31oy')
-                  </script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+      <script type="text/javascript">emailjs.init('Olw57NPYYhSRt31oy')</script>
             
-        </section>
+    </section>
 
-    </body>
+  </body>
 </html>
