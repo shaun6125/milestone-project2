@@ -19,14 +19,14 @@ As a first time user I would want to be able to fully understand what the games 
 
 All Mock-Ups and planning I did for this project can be found here 
 
-[Index-desktop]()
-[Index-tablet-mobile]()
-[Lovemaths-desktop]()
-[Lovemaths-tablet-mobile]()
-[Simon-desktop]()
-[Simon-tablet-mobile]()
-[Contact-desktop]()
-[Contact-tablet-mobile]()
+[Index-desktop](https://github.com/shaun6125/milestone-project2/blob/main/assets/images/index%20-%20desktop.png)
+[Index-tablet-mobile](https://github.com/shaun6125/milestone-project2/blob/main/assets/images/index%20-%20mobile%20and%20tablet.png)
+[Lovemaths-desktop](https://github.com/shaun6125/milestone-project2/blob/main/assets/images/Love%20Math%20-%20desktop.png)
+[Lovemaths-tablet-mobile](https://github.com/shaun6125/milestone-project2/blob/main/assets/images/Love%20Math%20-%20tablet%20and%20mobile.png)
+[Simon-desktop](https://github.com/shaun6125/milestone-project2/blob/main/assets/images/Simon%20-%20desktop.png)
+[Simon-tablet-mobile](https://github.com/shaun6125/milestone-project2/blob/main/assets/images/Simon%20-%20mobile.png)
+[Contact-desktop](https://github.com/shaun6125/milestone-project2/blob/main/assets/images/Contact%20-%20desktop.png)
+[Contact-tablet-mobile](https://github.com/shaun6125/milestone-project2/blob/main/assets/images/Contact%20-%20tablet%20and%20mobile.png)
 
 ## DESIGN
 
@@ -52,21 +52,21 @@ when the user clicks on a colour or math icon they will 'flash' and return back 
 
 If the user enters the wrong answer or sequence a notification with a message will pop up to highlight a failed attempt.
 
-### [index.html]()
+### [index.html](https://shaun6125.github.io/milestone-project2/index.html)
 
 This is the landing page, where people can see the benefits of memory games. This landing page has been purposfully kept simple, clean and bitesized to encourage the leaning element and not to distract from the purpose of the site, of which is the games.
 
 The Image [brainbuilder.jpg] was used as a royalty free option. With better software I would have designed and vectorised my own image.
 
-### [love-math.html]()
+### [love-math.html](https://shaun6125.github.io/milestone-project2/love-math.html)
 
 This page is dedicated to the mathmatics game. It has a simple interface, an answer box, and an incrementing score tally. 
 
-### [simon.html]()
+### [simon.html](https://shaun6125.github.io/milestone-project2/simon.html)
 
 This page is dedicated to the simon game. It has a simple interface, which all begins with pressing start, and an incrementing score tally that clears if a wrong move is made. 
 
-### [contact.html]()
+### [contact.html](https://shaun6125.github.io/milestone-project2/contact.html)
 
 This page is where other developers with great ideas can contact me directly and submit any potential project ideas that they may wish to work on together.
 
@@ -80,8 +80,8 @@ Here are links to each techonology I have used:
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 - [Bootstrap 4.2.1](http://getbootstrap.com/docs/4.2/)
 - [Font Awesome 5](https://fontawesome.com)
-- [JavaScript] ()
-- [emailJS] ()
+- [JavaScript] (https://simple.wikipedia.org/wiki/JavaScript)
+- [emailJS] (https://www.emailjs.com/)
 
 
 ## TESTING
@@ -125,7 +125,7 @@ Connecting EmailJS to the site proved to be a challenge, the process was differe
 
 Whenever I thought that a page was finished, I deployed it to "**GitHub Pages**".
 
-All my commits and project be found here [milestone-project2]().
+All my commits and project be found here [milestone-project2](https://github.com/shaun6125/milestone-project2).
 
 ## CREDIT
 
